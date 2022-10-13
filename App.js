@@ -16,7 +16,7 @@ export default function App() {
     const fetchApi = () => {
       return fetch(
         'http://localhost:5555/api',
-        // { mode: 'no-cors' },
+        { mode: 'no-cors' },
         {
           method: 'POST',
           body: JSON.stringify(data),
